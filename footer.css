@@ -1,2 +1,80 @@
+footer {
+  margin-top: 90px;
+  background-image: linear-gradient(to bottom right, #5d4af1b1, #913fe99c);
+}
+
+.footer-container {
+  display: flex;
+  padding: 50px;
+}
+
+.left-footer-form {
+  width: 50%;
+}
+
+.right-footer-contact {
+  width: 50%;
+}
+
+#form-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.input {
+  width: 70%;
+  padding: 10px;
+  font-size: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+#send-btn {
+  width: 70%;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 30px;
+}
+
+#contact-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.contact-desc {
+  margin-top: 50px;
+}
+
+#email-info {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#number-info {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 576px) {
 }
